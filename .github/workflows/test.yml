@@ -83,7 +83,7 @@ jobs:
             ${{ runner.os }}-go-docker-${{ matrix.go-version }}-
         if: env.GIT_DIFF
       - name: Set up QEMU
-        uses: docker/setup-qemu-action@v2
+        uses: docker/setup-qemu-action@v3
         if: env.GIT_DIFF
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v2
