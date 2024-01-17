@@ -24,7 +24,7 @@ jobs:
       - name: Display go version
         run: go version
       - name: Get data from build cache
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           # In order:
           # * Module download cache
@@ -66,7 +66,7 @@ jobs:
             Makefile
             Dockerfile
       - name: Get data from build cache
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           # In order:
           # * Module download cache
