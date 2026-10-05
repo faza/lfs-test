@@ -5,12 +5,12 @@ go 1.20
 require (
 	github.com/cosmos/cosmos-sdk v0.47.2
 	github.com/cosmos/iavl v0.19.5
-	github.com/cosmos/ibc-go/v4 v4.3.0
+	github.com/cosmos/ibc-go/v4 v4.3.1
 	github.com/gogo/protobuf v1.3.3
 	github.com/spf13/cobra v1.7.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.3
-	github.com/tendermint/tendermint v0.34.26
+	github.com/tendermint/tendermint v0.37.0-rc1
 	github.com/tendermint/tm-db v0.6.8-0.20220506192307-f628bb5dc95b
 	golang.org/x/exp v0.0.0-20230131160201-f062dba9d201
 )
@@ -113,7 +113,7 @@ require (
 	github.com/tendermint/btcd v0.1.1 // indirect
 	github.com/tendermint/crypto v0.0.0-20191022145703-50d29ede1e15 // indirect
 	github.com/tendermint/go-amino v0.16.0 // indirect
-	github.com/tidwall/btree v1.6.0 // indirect
+	github.com/tidwall/btree v1.8.2 // indirect
 	github.com/zondax/hid v0.9.1 // indirect
 	github.com/zondax/ledger-go v0.14.1 // indirect
 	go.etcd.io/bbolt v1.3.6 // indirect
